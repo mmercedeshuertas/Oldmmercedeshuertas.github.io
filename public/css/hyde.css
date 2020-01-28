@@ -76,11 +76,11 @@ html {
 }
 
 /* About section */
-.sidebar-about h4{
+.sidebar-about {
   color: #fff;
   margin-top: 0;
   font-family: serif;
-  font-size: 2.75rem;
+  font-size: 1.10rem;
 }
 
 /* Sidebar nav */
