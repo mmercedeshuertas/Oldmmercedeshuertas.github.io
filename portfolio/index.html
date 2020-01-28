@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="/public/css/mystyle.css">
+  <!--<link rel="stylesheet" href="/public/css/mystyle.css">-->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
@@ -43,7 +43,7 @@
 .slideshow-container {
   max-width: 700px;
   max-height: 400px;
-  margin: 25px 10px;
+  /*margin: 25px 10px;*/
   position: relative;
   margin: auto;
 }
@@ -162,12 +162,12 @@
     <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      <h1>
+      <h3>
         <!-- <a href="/"> -->
           Mercedes Huertas-Migueláñez
         <!-- </a> -->
-      </h1>
-      <p class="lead">Email: mmercedeshuertas at gmail dot com</p>
+      </h3>
+      <p >Email: mmercedeshuertas at gmail dot com</p>
     </div>
 
     <nav class="sidebar-nav">
@@ -312,7 +312,8 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  console.log(dots);
+  console.log(slides.length);
+  //console.log(dots);
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -382,10 +383,11 @@ function currentSlide2(n) {
 function showSlides2(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides2");
-  console.log(document.getElementsByClassName("mySlides2"));
+  //console.log(document.getElementsByClassName("mySlides2"));
   var dots = document.getElementsByClassName("dot2");
-  console.log(document.getElementsByClassName("dot2"));
-  if (n > slides.length) {slideIndex = 1}    
+  //console.log(document.getElementsByClassName("dot2"));
+  console.log(slides.length);
+  if (n > slides.length) {slideIndex2 = 1}    
   if (n < 1) {slideIndex2 = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
