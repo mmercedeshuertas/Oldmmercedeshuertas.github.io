@@ -232,8 +232,9 @@ a.sidebar-nav-item:focus {
 
 .icon-bar {
   width: auto;
-  background-color: #555;
+  background-color: #202020;
   overflow: auto;
+  align-items: center;
 }
 
 .icon-bar a {
